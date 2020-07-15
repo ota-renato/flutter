@@ -166,7 +166,7 @@ class _HomeState extends State<Home> {
 
   Future<File> _getFile() async {
     final directory = await getApplicationDocumentsDirectory();
-    return File("${directory.path}/data.json");
+    return File("${directory.path}/data_lista.json");
   }
 
   Future<File> _saveData() async {
